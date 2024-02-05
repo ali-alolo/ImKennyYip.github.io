@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello bit**s</title>
+    <!--java script-->
+    <script>
+        function lol(){
+            var check = document.getElementById("broke");
+            var text = document.getElementById("message");
+            if(check.checked){
+                text.style.display = "block";
+            }
+            else{
+                text.style.display = "none";
+            }
+        }
+        function trolle(){
+            var checkr = document.getElementById("y");
+            if(checkr.checked){
+                document.getElementById("y").checked = false;
+            }
+
+        }
+        
+        function trolle2(){
+
+            var chakchoka = document.getElementById("gy");
+            var text = document.getElementById("hah");
+            if(chakchoka.checked){
+                text.style.display = "block";
+            }
+            else{
+                text.style.display = "none";
+            }
+        }
+        function gaha(){
+            document.getElementById('daddy').value = "Ali";
+        }
+
+        function newfentare(){
+            window.open("https://iplogger.com/2kbH15" , '_blank')
+        }
+        
+    </script>
+
+    <!--css-->
+    <style>
+        input{
+            margin-top:10px;
+        }
+        body{
+            background-color:rgb(90, 121, 108);
+        }
+        #message{
+            color: rgb(153, 125, 73)
+        }
+        fieldset{
+            border: solid 5px orange;
+        }
+        iframe{
+            height:35px;
+        }
+
+    </style>
+    
+
+    
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend></legend>
+        <!--first text-->
+        <label for="daddy">who is 3amak ?  </label>
+        <input type="text" id="daddy" onblur="gaha()">
+
+        <br>
+        <!--second text-->
+        <label for="sus">how much money are old are you ?</label>
+        <input type="number" id="sus"> 
+        <br>
+
+        <!--joke on you-->
+        <p>i am :</p>
+        <label for="gy">gay </label>
+        <input type="radio" id="gy" name="1" onchange="trolle2()">
+
+        <label for="y">straight </label>
+        <input type="radio" id="y" name="2" onchange="trolle()">
+
+        <div id="hah" style="display: none; color: purple;" >
+            HHHHHHHHH i know it
+         </div>
+
+        <h2 style="color:rgb(255, 43, 43)">What is your baughatu color ?</h2>
+        <!--color chose-->
+        <label for="mf">color:</label>
+        <input type="color" id="mf" ><br>
+        <!--check box-->
+        <label for="broke">i am broke</label>
+         <input type="checkbox" id="broke" onchange="lol()">
+         <div id="message" style="display: none;" >
+            and you are single too mohahahahahaha
+         </div>
+
+        <h3 style="color:rgb(255, 43, 43)">select your gender</h3>
+         <iframe src="selction.html" frameborder="0"></iframe>
+        <br>
+
+        <input type="submit" value="show result" onclick="newfentare()">
+    </fieldset>
+</form>
+</body>
+</html>
